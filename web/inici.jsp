@@ -14,6 +14,7 @@
     </head>
     <body>
         <h1>Súper calculadora</h1>
+        <small>Li agafaràs gust a les matemàtiques</small>
         <% if (request.getParameter("n1") == null) { %>
         <form action="inici.jsp" method="post">
             N1: <input type="text" name="n1" />
